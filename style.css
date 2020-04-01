@@ -240,7 +240,10 @@ h5{
     bottom: 70px;
     margin: auto;
     padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 #orange-box{
     background-color:#f8765e;
@@ -287,5 +290,60 @@ footer{
     margin-top: 100px;
 }
 
+/* ----------------------------- Media querie ----------------------------- */ 
+ 
+@media (min-width:600px){
+    #benefit{
+        padding: 0 50px 60px 50px;
+    /*     width: 85vw; */
+    }
+    .cajitas{
+        width: 33%;
+        padding-right: 100px;
+    }
+    .cajitas:last-child {
+        padding-right: 0px;
+      }
 
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding-left: 30px;
+    }
+
+    #banner{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+    
+        /*         padding: 0 5% 0 5%;
+        text-align: left; */
+    }
+    #mobile{
+        width: 49%;
+    }
+    .text-responsive-banner{
+        text-align: left;
+        max-width: 49%;
+    }
+    .text-banner{
+        text-align: left;
+    }
+    h2{
+        text-align: left; 
+    }
+    .button{
+        margin: 0px;
+    }
+
+
+
+
+
+
+    }
 
