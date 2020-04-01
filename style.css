@@ -6,25 +6,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* ----------------------------- Header ----------------------------- */ 
+
 header{
     background-color: #f8765e;  
 }
 
-#banner{
-    text-align: center;
-    background-color: #f8765e;
-}
-
-h1{
-    padding: 25px 135px 0 136px;
-    width: 104px;
-    height: 58px;
-    font-size: 26px;
-    font-weight: 900;
-    color: white;
-    line-height: 2.23;
-    position: static;
-}
 nav{
     text-align: center;
 }
@@ -43,18 +30,19 @@ a{
     letter-spacing: normal;
 }
 
-.button{
-    margin: 20px 104px 140px 104px;
-    width: 168px;
-    height: 60px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
-    background-color: #9bdbe7;
-    font-size: 20px;
-    line-height: 25px;
-    font-weight: bold;
+
+/* --------------------- Todos los textos -------------------- */ 
+h1{
+    padding: 25px 135px 0 136px;
+    width: 104px;
+    height: 58px;
+    font-size: 26px;
+    font-weight: 900;
     color: white;
+    line-height: 2.23;
+    position: static;
 }
+
 
 h2{
     padding: 54px 30px 15px 30px;
@@ -68,8 +56,7 @@ h2{
     letter-spacing: normal;
     text-align: center;
     color: white;
-    position: static;
-  
+    position: static; 
 }
 
 .text-banner{
@@ -86,6 +73,67 @@ h2{
   color: white;
 }
 
+.purple-text{
+    color: #5b6c94;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.blue-title{
+    color: #031d5b;
+    font-weight: 500; 
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.orange-title{
+    width: 315px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e; 
+}
+
+.blue-premium-title{
+    color: #031d5b;
+    font-weight: 500; 
+    font-size: 26px;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.purple-premium-text{
+    color: #5b6c94;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.grey-subscribe-title{
+    color: #cdcdcd;
+    font-weight: 500; 
+    font-size: 26px;
+    line-height: 45px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/* --------------------- Forms -------------------- */ 
+
 #email{
     width: 335px;
     height: 60px;
@@ -94,4 +142,54 @@ h2{
     background-color:white;
     position: relative;
 }
+
+.button{
+    margin: 20px 104px 140px 104px;
+    width: 168px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
+    background-color: #9bdbe7;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+/* --------------------- Otros -------------------- */
+
+#banner{
+    text-align: center;
+    background-color: #f8765e;
+}
+
+#benefit{
+    background-color: white;
+    width: 90vw;
+    border-radius: 20px;
+    border: 1px solid salmon;
+    box-shadow:  0 10px 34px 0 rgba(210, 210, 210, 0.5);
+    position: relative;
+    bottom: 70px;
+}
+
+
+/* ----------------------------- Footer ----------------------------- */ 
+
+footer{
+    background-color: #f8765e;
+    width: 374px;
+    height: 164px;  
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+
 
