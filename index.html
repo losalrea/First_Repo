@@ -21,7 +21,7 @@
 
     <!-- Sección banner naranja -->
     <section id="banner">
-        <img src= "./images/mobile.png">
+        <img ID=mobile src= "./images/mobile.png">
         <h2>Subscribe today and get notified first when we launch Orange app!</h2>
         <p class=text-banner>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
         <form action="" method “post”>
@@ -33,17 +33,17 @@
        <!-- Sección benefit -->
        <section id="benefit">
         <article>
-            <img src= "./images/illustration-1.svg">
+            <img class="illustration" src= "./images/illustration-1.svg">
             <h4 class="blue-title">Title 1</h4>
             <p class="purple-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </article>
         <article>
-            <img src= "./images/illustration-2.svg">
+            <img class="illustration" src= "./images/illustration-2.svg">
             <h4 class="blue-title">Title 2</h4>
             <p class="purple-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </article>
         <article>
-            <img src= "./images/illustration-3.svg">
+            <img class="illustration" src= "./images/illustration-3.svg">
             <h4 class="blue-title">Title 3</h4>
             <p class="purple-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </article><br><br><br> <!-- Recordar eliminar br-->
@@ -52,7 +52,7 @@
         <!-- Sección pricing -->
         <section id="pricing">
             <article>
-                <img src= "./images/Left column.png">
+                <img id=left-column src= "./images/Left column.png">
                 <h2 class="orange-title">It tastes like Premium.</h2>
                 <h3 class="blue-premium-title">Better than an apple.</h3>
                 <p class="purple-premium-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -63,18 +63,17 @@
         </section>
 
          <!-- Sección testimonials -->
-         <section id="testimonias">
-            <article id="quote-pink"> <!-- ¿Bien ponerle id para el css?-->
-                <p>What Our</p>
-                <p>Customers Say</p> <!-- Puede ser dos p está bien?-->
-                <img src= "./images/quote.svg">
+         <section id="testimonials">
+            <article id="quote-pink"> 
+                <h5>What Our<br>Customers Say</h5> <!-- Puede ser dos p está bien?-->
             </article>
-            <article id="quote blue"> <!-- ¿Bien ponerle id para el css?-->
-                <img src= "./images/quote-white.svg">
-                <p>“I love oranges!!</p>
-                <p>tasty mmmmm…..”</p> <!-- ¿En dos p está bien?-->
-                <p><strong>Marjon Siero</strong> / Ironhack</p><br><br><br> <!-- Recordar eliminar br-->
-            </article>
+            <div id="orange-box">
+                <article id="quote-blue"> <!-- ¿Bien ponerle id para el css?-->
+                    <img class="quote-white" src= "./images/quote-white.svg">
+                    <p class="text-quote">“I love oranges!!<br>tasty mmmmm…..”</p>
+                    <p class="text-quote1"><strong>Marjon Siero</strong> / Ironhack</p><br><br><br> <!-- Recordar eliminar br-->
+                </article>
+             </div>
         </section>
     
         <!-- Sección subscribe ¿El article está bien?-->

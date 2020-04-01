@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 body{ 
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 /* ----------------------------- Header ----------------------------- */ 
@@ -19,35 +21,47 @@ nav{
 a{
     text-decoration: none;
     color: white;
-    width: 52px;
-    height: 32px;
     font-family: Roboto;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 2;
     letter-spacing: normal;
+    margin: 0 4vw 0 4vw;
 }
 
+/* ----------------------------- Images ----------------------------- */ 
+#mobile{
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.illustration{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.quote-white{
+    padding: 80px 201px 23px 49px;
+}
+
+/* #left-column{
+
+} */
 
 /* --------------------- Todos los textos -------------------- */ 
 h1{
-    padding: 25px 135px 0 136px;
-    width: 104px;
-    height: 58px;
+    padding-top: 25px;
+    padding-bottom: 14px; 
     font-size: 26px;
     font-weight: 900;
     color: white;
     line-height: 2.23;
-    position: static;
 }
 
 
 h2{
-    padding: 54px 30px 15px 30px;
-    width: 315px;
-    height: 120px;
     font-size: 30px;
     font-weight: bold;
     font-stretch: normal;
@@ -56,15 +70,27 @@ h2{
     letter-spacing: normal;
     text-align: center;
     color: white;
-    position: static; 
+    margin-bottom: 15px;
+}
+
+h5{
+    background-image: url(./images/quote.svg);
+    background-repeat: no-repeat;
+    width: 151px;
+    height: 165px;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #f8765e;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-left: 25px;
 }
 
 .text-banner{
-    padding: 0px 30px 30px 30px;
-    width: 315px;
   height: 160px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 2;
@@ -75,7 +101,7 @@ h2{
 
 .purple-text{
     color: #5b6c94;
-    font-weight: 500; 
+    font-weight: 400; 
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
@@ -89,20 +115,24 @@ h2{
     line-height: 25px;
     letter-spacing: 0px;
     text-align: left;
+    padding-bottom: 20px;
+    width: 55px;
+    border-bottom: 5px solid coral;
+    margin-bottom: 30px;
 }
 
 .orange-title{
-    width: 315px;
-    height: 40px;
     font-family: Roboto;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
     letter-spacing: normal;
     text-align: center;
     color: #f8765e; 
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 
 .blue-premium-title{
@@ -112,6 +142,7 @@ h2{
     line-height: 45px;
     letter-spacing: 0px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .purple-premium-text{
@@ -125,26 +156,62 @@ h2{
 
 .grey-subscribe-title{
     color: #cdcdcd;
-    font-weight: 500; 
+    font-weight: 400; 
     font-size: 26px;
     line-height: 45px;
     letter-spacing: 0px;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
+.text-quote{
+    width: 240px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    text-align: left;
+    font-weight: 500; 
+    padding-left: 49px;
+}
+
+.text-quote1{
+    width: 240px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 2;
+    color: white;
+    text-align: left;
+    font-weight: 500; 
+    padding-top: 78px;
+    padding-left: 49px;
+}
 /* --------------------- Forms -------------------- */ 
 
 #email{
     width: 335px;
     height: 60px;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    color: #cdcdcd;
     border-radius: 20px;
     box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.15);
     background-color:white;
-    position: relative;
+    padding-left: 20px;
+}
+
+#email::placeholder{
+    color: #cdcdcd;
 }
 
 .button{
-    margin: 20px 104px 140px 104px;
+    margin: 20px 104px 10px 104px;
     width: 168px;
     height: 60px;
     border-radius: 20px;
@@ -167,18 +234,45 @@ h2{
     background-color: white;
     width: 90vw;
     border-radius: 20px;
-    border: 1px solid salmon;
+/*     border: 1px solid salmon; */
     box-shadow:  0 10px 34px 0 rgba(210, 210, 210, 0.5);
     position: relative;
     bottom: 70px;
+    margin: auto;
+    padding: 0 20px;
 }
 
+#orange-box{
+    background-color:#f8765e;
+    padding-top:70px;
+    height: 660px;
+    border-radius: 20px;
+    margin-left: 75px;
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+}
 
+#quote-blue{
+    width: 300px;
+    height: 400px;
+    background-color: #9bdbe7;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+/*     padding: 152px 50px 0 50px; */
+    position: relative;
+    top: 50px;
+    left: -70px;
+    margin: 10px 30px 40px 30px;
+}
+
+#testimonials{
+    margin: 100px 0 0 0;
+}
 /* ----------------------------- Footer ----------------------------- */ 
 
 footer{
     background-color: #f8765e;
-    width: 374px;
     height: 164px;  
     font-family: Roboto;
     font-size: 16px;
@@ -189,6 +283,8 @@ footer{
     letter-spacing: normal;
     text-align: center;
     color: white;
+    padding-top: 40px;
+    margin-top: 100px;
 }
 
 
