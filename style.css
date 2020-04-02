@@ -40,6 +40,7 @@ a{
 #mobile{
     margin-top: 35px;
     margin-bottom: 60px;
+    max-width: 333px;
 }
 
 .illustration{
@@ -53,6 +54,10 @@ a{
 
 .quote-white01{
     padding: 80px 201px 23px 49px;
+}
+
+#left-column{
+    max-width: 296px;
 }
 
 /* --------------------- Todos los textos -------------------- */ 
@@ -93,7 +98,7 @@ h5{
 }
 
 .text-banner{
-  height: 160px;
+  height: 200px;
   font-size: 1.6rem;
   font-weight: 500;
   font-stretch: normal;
@@ -348,7 +353,7 @@ footer{
     text-align: center;
     color: white;
     padding-top: 40px;
-    margin-top: 100px;
+/*     margin-top: 100px; */
 }
 
 /* ----------------------------- Media querie ----------------------------- */ 
@@ -379,6 +384,7 @@ footer{
 
     #mobile{
         width: 45%;
+        max-width: 530px;
     }
 
     .text-responsive-banner{
@@ -388,7 +394,9 @@ footer{
 
     .text-banner{
         text-align: left;
+        height: 150px;
         margin: 0px;
+
     }
 
     h2{
@@ -406,7 +414,7 @@ footer{
     .form-banner-naranja{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
     }
     
 
@@ -437,6 +445,7 @@ footer{
     #left-column{
         width: 44%;
         text-align: left;
+        max-width: 494px;
     }
 
     .premium-text{
@@ -523,5 +532,10 @@ footer{
         margin-left: 16px;
     }
 
+/* ------- footer ------- */
+    footer{
+   margin-top: 100px;
+    }
+    
 }
 
