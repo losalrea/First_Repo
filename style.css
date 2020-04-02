@@ -204,6 +204,7 @@ h5{
     padding-top: 78px;
     padding-left: 49px;
 }
+
 /* --------------------- Forms -------------------- */ 
 
 #email{
@@ -240,6 +241,8 @@ h5{
     color: white;
 }
 
+
+
 /* --------------------- Otros -------------------- */
 
 #banner{
@@ -260,7 +263,6 @@ h5{
     display: flex;
     flex-wrap: wrap;
 }
-
 
 #orange-box{
     background-color:#f8765e;
@@ -287,8 +289,9 @@ h5{
 }
 
 #testimonials{
-    margin: 100px 0 0 0;
+    margin: 0px 0 0 0;
 }
+
 /* ----------------------------- Footer ----------------------------- */ 
 
 footer{
@@ -359,9 +362,12 @@ footer{
         margin: 0px;
     }
 
-    form{
-        padding-left: 0px;
+    .form-banner-naranja{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+    
 
 /* ------- benefit ------- */
     #benefit{
@@ -417,6 +423,10 @@ footer{
         margin: 0px;
     }
 
+/* ------- testimonials ------- */
+    #testimonials{
+        margin: 200px 0 0 0;
+    }  
 
 /* ------- subscribe ------- */
     .orange-title1{
