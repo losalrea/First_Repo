@@ -3,6 +3,11 @@
     padding:0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 10px;
+}
+
 body{ 
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -22,7 +27,7 @@ a{
     text-decoration: none;
     color: white;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -46,15 +51,11 @@ a{
     padding: 80px 201px 23px 49px;
 }
 
-/* #left-column{
-
-} */
-
 /* --------------------- Todos los textos -------------------- */ 
 h1{
     padding-top: 25px;
     padding-bottom: 14px; 
-    font-size: 26px;
+    font-size: 2.6rem;
     font-weight: 900;
     color: white;
     line-height: 2.23;
@@ -62,7 +63,7 @@ h1{
 
 
 h2{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -78,7 +79,7 @@ h5{
     background-repeat: no-repeat;
     width: 151px;
     height: 165px;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 1.25;
     color: #f8765e;
     text-align: left;
@@ -89,7 +90,7 @@ h5{
 
 .text-banner{
   height: 160px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -97,12 +98,13 @@ h5{
   letter-spacing: normal;
   text-align: center;
   color: white;
+  margin: 0 7vw;
 }
 
 .purple-text{
     color: #5b6c94;
     font-weight: 400; 
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 32px;
     letter-spacing: 0px;
     text-align: left;
@@ -111,7 +113,7 @@ h5{
 .blue-title{
     color: #031d5b;
     font-weight: 500; 
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 25px;
     letter-spacing: 0px;
     text-align: left;
@@ -123,7 +125,21 @@ h5{
 
 .orange-title{
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f8765e; 
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.orange-title1{
+    font-family: Roboto;
+    font-size: 3rem;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -138,7 +154,7 @@ h5{
 .blue-premium-title{
     color: #031d5b;
     font-weight: 500; 
-    font-size: 26px;
+    font-size: 2.6rem;
     line-height: 45px;
     letter-spacing: 0px;
     text-align: center;
@@ -148,16 +164,17 @@ h5{
 .purple-premium-text{
     color: #5b6c94;
     font-weight: 500; 
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 32px;
     letter-spacing: 0px;
     text-align: center;
+    margin: 0 7vw;
 }
 
 .grey-subscribe-title{
     color: #cdcdcd;
     font-weight: 400; 
-    font-size: 26px;
+    font-size: 2.6rem;
     line-height: 45px;
     letter-spacing: 0px;
     text-align: center;
@@ -168,7 +185,7 @@ h5{
 .text-quote{
     width: 240px;
     height: 80px;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 2;
     color: white;
     text-align: left;
@@ -179,7 +196,7 @@ h5{
 .text-quote1{
     width: 240px;
     height: 80px;
-    font-size: 18px;
+    font-size: 1.8rem;
     line-height: 2;
     color: white;
     text-align: left;
@@ -193,7 +210,7 @@ h5{
     width: 335px;
     height: 60px;
     font-family: Roboto;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -211,13 +228,13 @@ h5{
 }
 
 .button{
-    margin: 20px 104px 10px 104px;
+    margin: 20px 104px 140px 104px;
     width: 168px;
     height: 60px;
     border-radius: 20px;
     box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.14);
     background-color: #9bdbe7;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 25px;
     font-weight: bold;
     color: white;
@@ -278,7 +295,7 @@ footer{
     background-color: #f8765e;
     height: 164px;  
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -293,25 +310,17 @@ footer{
 /* ----------------------------- Media querie ----------------------------- */ 
  
 @media (min-width:600px){
-    #benefit{
-        padding: 0 50px 60px 50px;
-    /*     width: 85vw; */
-    }
-    .cajitas{
-        width: 33%;
-        padding-right: 100px;
-    }
-    .cajitas:last-child {
-        padding-right: 0px;
-      }
 
+ /* ------- header ------- */
     header{
         display:flex;
         justify-content: space-between;
         align-items: baseline;
-        padding-left: 30px;
+        padding-left: 55px;
+        padding-right: 10px;
     }
 
+ /* ------- banner naranja ------- */
     #banner{
         display: flex;
         flex-wrap: wrap;
@@ -319,31 +328,113 @@ footer{
         align-items: center;
         justify-content: space-between;
         padding: 0 5%;
-    
+        height: 800px;
         /*         padding: 0 5% 0 5%;
         text-align: left; */
     }
+
     #mobile{
-        width: 49%;
+        width: 45%;
     }
+
     .text-responsive-banner{
         text-align: left;
-        max-width: 49%;
+        max-width: 53%;
     }
+
     .text-banner{
         text-align: left;
+        margin: 0px;
     }
+
     h2{
         text-align: left; 
+        font-size: 4.8rem;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
     }
+
     .button{
         margin: 0px;
     }
 
-
-
-
-
-
+    form{
+        padding-left: 0px;
     }
+
+/* ------- benefit ------- */
+    #benefit{
+    /* padding: 0 50px 60px 50px; */
+    padding: 0 0 60px 0;
+    }
+    .cajitas{
+        width: 33%;
+        padding: 0 50px 0 50px;
+    /*  adding-right: 100px; */
+    }
+    .cajitas:last-child {
+        padding-right: 0px;
+      }
+
+ /* ------- pricing ------- */
+
+    #pricing01{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+    #left-column{
+        width: 44%;
+        text-align: left;
+    }
+
+    .premium-text{
+        text-align: right;
+        max-width: 50%;
+    }
+
+    .orange-title{
+        text-align: right;
+        font-size: 4.8rem;
+    }
+    .blue-premium-title{
+        text-align: right;
+        font-size: 3.4rem;
+    }
+    .purple-premium-text{
+        text-align: right;
+        padding-bottom: 40px;
+        margin: 0;
+    }
+
+    .button-pricing{
+        text-align: right;
+        justify-content: flex-end;
+        margin: 0px;
+    }
+
+
+/* ------- subscribe ------- */
+    .orange-title1{
+        font-size: 4.8rem;
+    }
+
+    .grey-subscribe-title{
+        font-size: 3.4rem;
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    .button{
+        margin-left: 16px;
+    }
+
+}
 
