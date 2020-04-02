@@ -51,6 +51,10 @@ a{
     padding: 80px 201px 23px 49px;
 }
 
+.quote-white01{
+    padding: 80px 201px 23px 49px;
+}
+
 /* --------------------- Todos los textos -------------------- */ 
 h1{
     padding-top: 25px;
@@ -205,6 +209,29 @@ h5{
     padding-left: 49px;
 }
 
+.text-quote01{
+    width: 240px;
+    height: 80px;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #7c7c7c;
+    text-align: left;
+    font-weight: 500; 
+    padding-left: 49px;
+}
+
+.text-quote02{
+    width: 300px;
+    height: 80px;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #3f3f3f;
+    text-align: left;
+    font-weight: 400; 
+    padding-top: 78px;
+    padding-left: 49px;
+}
+
 /* --------------------- Forms -------------------- */ 
 
 #email{
@@ -285,6 +312,20 @@ h5{
     position: relative;
     top: 50px;
     left: -70px;
+    margin: 10px 30px 40px 30px;
+}
+
+#quote-white-caja{
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: inline-block;
+/*     padding: 152px 50px 0 50px; */
+    position: absolute;
+    bottom: 90px;
+    left: 68vw;
     margin: 10px 30px 40px 30px;
 }
 
@@ -423,10 +464,46 @@ footer{
         margin: 0px;
     }
 
+    #quote-white-caja{
+        position: absolute;
+        bottom: 90px;
+        left: 23vw;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
 /* ------- testimonials ------- */
     #testimonials{
         margin: 200px 0 0 0;
     }  
+
+
+#quote-blue{
+    width: 300px;
+    height: 400px;
+    background-color: #9bdbe7;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+/*     padding: 152px 50px 0 50px; */
+    position: relative;
+    top: 50px;
+    left: -70px;
+    margin: 10px 30px 40px 30px;
+}
+
+#quote-white-caja{
+    overflow-x: hidden;
+    width: 300px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 12px 12px 40px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: inline-block;
+/*     padding: 152px 50px 0 50px; */
+    position: absolute;
+    bottom: 90px;
+    left: 250px;
+    margin: 10px 30px 40px 30px;
+}
 
 /* ------- subscribe ------- */
     .orange-title1{
